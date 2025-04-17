@@ -200,7 +200,7 @@ font-size: 30px;
 line-height: 80px;
 letter-spacing: 0%;
 left: 560px;
-top: 1210px;
+top: 1220px;
 color: var(--two-color);
 }
 
@@ -214,9 +214,10 @@ font-family: Poppins;
 font-size: 20px;
 line-height: 100%;
 letter-spacing: 0%;
-margin-top: 130px;
+margin-top: 132px;
 margin-left: 35px;
 cursor: pointer;
+border: none;
 }
 
 .wrap_2_wrap_2 {
@@ -261,6 +262,7 @@ line-height: 100%;
 letter-spacing: 0%;
 margin-left: 30px;
 cursor: pointer;
+border: none;
 }
 
 .wrap_2_wrap_3 {
@@ -313,4 +315,49 @@ line-height: 100%;
 letter-spacing: 0%;
 margin-left: 40px;
 margin-top: 20px;
+cursor: pointer;
+border: none;
+}
+
+@media only screen and (max-width: 992px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    ul {
+        width: 772px;
+        height: 24px;
+        display: flex;
+        gap: 70px;
+        margin-left: 100px;
+        margin-top: 30px;
+        cursor: pointer;
+        margin-right: 220px;
+    }
+    
+    ul > li {
+        list-style: none;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--two-color);
+    }
+    
+    .menu_button > button {
+        width: 220px;
+    height: 70px;
+    font-family: Poppins;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border: none;
+    color: var(--three-color);
+    background-color: var(--one-color);
+    border: 3px solid var(--two-color);
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
 }
